@@ -13,11 +13,14 @@
     "sass": "^1.32.13",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {
+  "devScripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "scripts":{
+    "start":"npm install serve -g && serve -s build"
   },
   "eslintConfig": {
     "extends": [
